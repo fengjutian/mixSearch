@@ -1,0 +1,21 @@
+{
+    "name": "mixSearch",
+    "description" : "mixSearch",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "mixSearch.png"
+    },
+    "permissions": [
+        "management"
+    ],
+    "chrome_url_overrides" : {
+        "newtab": "override.html"
+    },
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+          "background.js"
+        ]
+    }
+}
