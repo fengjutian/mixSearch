@@ -1,0 +1,33 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.main-list{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.base-list{
+    width: 800px;
+}
+
+.list-header{
+    padding: 10px 0;
+}
+
+.list-wrap{
+    margin-top: 5px;
+}
+
+.single-list{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
