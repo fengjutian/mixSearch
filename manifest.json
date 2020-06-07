@@ -6,11 +6,19 @@
         "default_popup": "popup.html",
         "default_icon": "mixSearch.png"
     },
+    "icons": {
+        "16": "icon16.jpg"
+    },
     "permissions": [
-        "management"
+        "history",
+        "contextMenus",
+        "management",
+        "system.cpu",
+        "system.memory",
+        "system.storage"
     ],
     "chrome_url_overrides" : {
-        "newtab": "memorial.html"
+        "newtab": "newTab.html"
     },
     "manifest_version": 2,
     "background": {
